@@ -19,17 +19,17 @@ user = User.create!(
   visibility: false
 )
 
-# user2 = User.create!(
-#   email: 'user2@gmail.com',
-#   name: 'Jill Bob',
-#   password: 'password',
-#   password_confirmation: 'password',
-#   about: 'about section',
-#   location: 'location section',
-#   profile_links: 'github.com',
-#   visibility: true,
-#   level_of_availability: '99-100 hours a day'
-# )
+user2 = User.create!(
+  email: 'user2@gmail.com',
+  name: 'Jill Bob',
+  password: 'password',
+  password_confirmation: 'password',
+  about: 'about section',
+  location: 'location section',
+  profile_links: 'github.com',
+  visibility: true,
+  level_of_availability: '99-100 hours a day'
+)
 
 # user3 = User.create!(email: 'user3@gmail.com', name: 'Luv2Code', password: 'password', password_confirmation: 'password')
 # user4 = User.create!(email: 'user4@gmail.com', name: 'rspineanu', password: 'password', password_confirmation: 'password')
